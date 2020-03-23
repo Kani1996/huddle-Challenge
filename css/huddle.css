@@ -1,8 +1,9 @@
 body{
   background-color:white;
   width: 100%;
-  padding: 0px;
-  overflow: hidden;
+  padding: 0px !important;
+  margin: 0px;
+  overflow-x : hidden;
 }
 .column-container {
   display: flex; /* or inline-flex */
@@ -41,7 +42,11 @@ body{
 .mockups-image{
 	margin-top: 15vh;
 }
-.build-community{
+.sub-images{
+	width: 38vw;
+    height: 60vh;
+}
+.heading{
 	font-weight: bold;
     font-size: 3.2em;
     color: black;
@@ -54,4 +59,58 @@ body{
 }
 .width-30{
 	width:30vw;
+}
+.width-20{
+	width:20vw;
+}
+.border-box{
+	box-shadow: 1px 3px 9px hsl(208, 11%, 55%);
+	margin: 64px;
+	border-radius: 20px;
+}
+.grow-together{
+	margin-top: 40vh;
+}
+.footer{
+	background-color: hsl(192, 100%, 9%);
+	height:45vh;
+	padding: 100px 200px 64px 10px;
+	display:flex;
+	justify-content: space-evenly;
+	color: white;
+	font-size: 24px;
+	align-items: center;
+	margin-top: 30vh;
+}
+.footer-sub-text{
+	padding: 10px;
+	display:flex;
+	align-items: center;
+}
+.get-started{
+	width: 30vw;
+	border-radius: 20px;
+	background-color: white;
+	margin-top: -300px;
+	position: absolute;
+	padding: 50px;
+	text-align: center;
+	float: center;
+	box-shadow: 1px 0px 5px hsl(208, 11%, 55%);
+}
+.pink-button{
+	border-radius: 50px 50px 50px 50px;
+	background-color: hsl(322, 100%, 66%);
+	color: white;
+	padding: 20px;
+	width:fit-content;
+	text-align: center;
+	margin-left: 150px;
+    margin-top: 20px;
+}
+
+.popup-text{
+	font-weight: bold;
+	font-size: 30px;
+	color: hsl(192, 100%, 9%);
 }
